@@ -82,3 +82,26 @@
     width: 30%; 
     justify-content: space-between;
 }
+
+.productos img{
+    width: 100%;
+    display: flex;
+    border-radius: 5%;
+    align-items: center;
+    
+}
+
+.boton{
+    border: 2px solid black;
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 310px;
+}
+
+.boton a{
+    color: white;
+    text-decoration: none;
+}
