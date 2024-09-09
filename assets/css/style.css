@@ -5,7 +5,15 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        'cabecera cabecera'
+        'menup principal';
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 70px;
+    height: 100vh;
+}
 .cabecera{
     grid-area: cabecera;
        color: white;
@@ -45,3 +53,32 @@
     grid-area: menup;
 }   
 
+.menup li{
+    margin: 30px;
+    list-style: none;
+    color: black;
+}
+
+.principal{
+    color: black;
+    display: grid;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.productos{
+    border: 1px solid black ;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 2%;  
+    width: 30%; 
+    justify-content: space-between;
+}
