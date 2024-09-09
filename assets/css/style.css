@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.cabecera{
+    grid-area: cabecera;
+       color: white;
+        display: grid;
+        grid-template-areas:
+        'logo titulo';
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: 70px;
+        height: 100vh;
+}
+
+.logo-dko{
+    grid-area:logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+   
+}
+.logo-dko img{
+    width: 45%;
+}
+
+.enunciado{
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+   align-items: center;
+   color: black;
+   
+}
+
+
+.menup{
+    grid-area: menup;
+}   
+
